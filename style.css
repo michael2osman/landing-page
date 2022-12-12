@@ -5,34 +5,38 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(/Users/mikeyos/Desktop/images/vecteezy_simple-abstract-brown-aesthetic-pattern-background_.jpg);
+}
+
 header {
-    background-color: white;
+    background-image: url(/Users/mikeyos/Desktop/images/vecteezy_simple-abstract-brown-aesthetic-pattern-background_.jpg);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 70px;
     width: auto;
 }
 
 ul {
     display: flex;
-    gap: 16px;
+    gap: 50px;
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    color: #66bdff;
+    font-size: 1.35rem;
+    box-shadow: inset 0 0 0 0 #fdde90;
+    color: black;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-#header-logo {
-    width: 100%;
-    height: 100%;
-    max-width: 100px;
-}
-
-.logo {
-    width: 60vw;
+a:hover {
+  box-shadow: inset 100px 0 0 0 #fdde90;
+  color: white;
 }
 
 #about-us {
@@ -45,20 +49,34 @@ a {
 }
 
 .visit-button {
-    background-color: orange;
+    background-color: #f2cb69;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin: 10px auto;
 }
 
 .introduction-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 35%;
+    text-align: center;
+    margin: auto;
 }
 
 #building {
     max-width: 450px;
     height: auto;
     
+}
+
+.meet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
 }
 
 .staff-section {
@@ -71,6 +89,7 @@ a {
 #doctors {
     width: 325px;
     height: 425px;
+    border: 4px solid #f2cb69;
 }
 
 .staff {
@@ -87,3 +106,27 @@ a {
 .staff-text {
     margin: 15px;
 }
+
+h3 {
+    margin: 8px 4px;
+}
+
+.quote > h2 {
+    background-color: #ffffff;
+    font-family: 'Apple Chancery', cursive;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+  }
+
