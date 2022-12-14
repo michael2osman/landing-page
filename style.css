@@ -6,11 +6,11 @@
 }
 
 body {
-    background-image: url(./Users/mikeyos/Desktop/images/vecteezy_simple-abstract-brown-aesthetic-pattern-background_.jpg);
+    background-image: url(/Users/mikeyos/Desktop/images/vecteezy_simple-abstract-brown-aesthetic-pattern-background_.jpg);
 }
 
 header {
-    background-image: url(./Users/mikeyos/Desktop/images/vecteezy_simple-abstract-brown-aesthetic-pattern-background_.jpg);
+    background-image: url(/Users/mikeyos/Desktop/images/vecteezy_simple-abstract-brown-aesthetic-pattern-background_.jpg);
     display: flex;
     align-items: center;
     justify-content: space-around;
